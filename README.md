@@ -6,7 +6,7 @@ http://localhost:8080/example/call-feign-get-item
 => http://localhost:8080/example/get-item 호출<BR>
 <BR>
 response
-```aidl
+```
 [
     {
         "itemId": "0001",
@@ -33,7 +33,7 @@ itemName에 우유가 포함되어 있는 리스트를 반환
 <BR>
 
 request
-```aidl
+```
 [
     {
         "itemId": "0001",
@@ -60,7 +60,7 @@ request
 
 
 response
-```aidl
+```
 {
     "error": null,
     "data": [
